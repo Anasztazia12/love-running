@@ -1,0 +1,31 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    background-color: lightblue;
+}
+
+/* Main */
+main {
+    background-color: lightgreen;
+}
+
+/* Footer */
+footer {
+    background-color: lightcoral;
+}
+/* Body layout */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
+/* Main takes remaining space */
+main {
+    flex: 1 0 auto;
+}
